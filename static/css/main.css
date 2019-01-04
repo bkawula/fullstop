@@ -2461,7 +2461,7 @@
 
 	#header {
 		background-color: #1f1815;
-		background: url("../images/bg-01.png") no-repeat center center fixed;
+		background: url("../images/bg-01.png") repeat center center fixed;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2497,45 +2497,16 @@
 	#footer {
 		bottom: 0;
 		left: 0;
-		padding: 0 4em 6em 0;
+		padding: 25px;
 		position: fixed;
 		text-align: right;
 		width: 35%;
+		color:#ffffff;
+		font-size: 12px;
+		line-height: 15px;
 	}
 
-		#footer .icons {
-			margin: 1em 0 0 0;
-		}
-
-			#footer .icons a {
-				color: rgba(255, 255, 255, 0.4);
-			}
-
-		#footer .copyright {
-			color: rgba(255, 255, 255, 0.4);
-			font-size: 0.8em;
-			list-style: none;
-			margin: 1em 0 0 0;
-			padding: 0;
-		}
-
-			#footer .copyright li {
-				border-left: solid 1px rgba(255, 255, 255, 0.25);
-				display: inline-block;
-				line-height: 1em;
-				margin-left: 0.75em;
-				padding-left: 0.75em;
-			}
-
-				#footer .copyright li:first-child {
-					border-left: 0;
-					margin-left: 0;
-					padding-left: 0;
-				}
-
-				#footer .copyright li a {
-					color: inherit;
-				}
+	
 
 /* Main */
 
@@ -2546,17 +2517,12 @@
 		width: calc(100% - 35%);
 	}
 
-		#main > section {
-			border-top: solid 2px #efefef;
-			margin: 4em 0 0 0;
-			padding: 4em 0 0 0;
-		}
 
-			#main > section:first-child {
-				border-top: 0;
-				margin-top: 0;
-				padding-top: 0;
-			}
+	#main > section:first-child {
+		border-top: 0;
+		margin-top: 0;
+		padding-top: 0;
+	}
 
 /* Poptrox */
 
@@ -2863,7 +2829,7 @@
 		/* Footer */
 
 			#footer {
-				padding: 0 3em 5em 3em;
+				padding: 25px;
 				width: 30%;
 			}
 
@@ -2914,13 +2880,38 @@
 				background-color: #FFFEF2;
 			}
 			.section-four ul li {
-				font-size: 1.5em;
 				padding-top:0.85em;
 				line-height: 1.25em;
-				font-weight: 200;
+				font-family: acumin-pro, sans-serif;
+
+font-weight: 100;
+
 			}
 			.section-four {
 				background-color: #FFFEF2;
+			}
+			.section-five {
+				background-color: #ffe6e6;
+			}
+
+			.section-five .work-item {
+				font-family: acumin-pro, sans-serif;
+				border-right: 1px dotted;
+				line-height: 1.15em;
+			}
+
+			.item-title {
+				font-weight:bold;
+				margin-bottom:1em;
+	
+			}
+
+			.section-five .work-item.last {
+				border-right:none;
+			}
+
+			#contact {
+				background-color: #e6dddd;
 			}
 
 	}
@@ -3182,8 +3173,8 @@
 	#sidebar ul li a a:visited {
 		color: #FFFE3F;
 		font-family: acumin-pro, sans-serif;
-font-weight: 700;
-font-style: normal;
+		font-weight: 700;
+		font-style: normal;
 		text-decoration: none;
 	}
 
