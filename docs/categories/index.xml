@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Full Stop Editorial</title>
-    <link>http://fullstopeditorial.ca/categories/</link>
+    <link>//fullstopeditorial.ca/categories/</link>
     <description>Recent content in Categories on Full Stop Editorial</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://fullstopeditorial.ca/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//fullstopeditorial.ca/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

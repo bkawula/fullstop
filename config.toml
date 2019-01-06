@@ -1,4 +1,4 @@
-baseurl = "http://fullstopeditorial.ca"
+baseurl = "//fullstopeditorial.ca/"
 languageCode = "en-us"
 title = "Full Stop Editorial"
 theme = ""
