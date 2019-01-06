@@ -2,6 +2,7 @@ baseurl = "http://fullstopeditorial.ca"
 languageCode = "en-us"
 title = "Full Stop Editorial"
 theme = ""
+publishDir = "docs"
 # Enable Google Analytics by inserting your tracking code
 googleAnalytics = ""
 # Define how many posts should appear on a site
@@ -12,7 +13,7 @@ paginate = 10
     # information about you and your website.
 	name = "Full Stop Editorial"
 	description = "Full Stop Editorial located in Toronto, Ontario. Offering copywriting, editing, marketing copy, reports, newsletters, social media, layout and consulting services."
-	
+
 
 	# Format dates with Go's time formatting
 	date_format = "2006-01-02"
